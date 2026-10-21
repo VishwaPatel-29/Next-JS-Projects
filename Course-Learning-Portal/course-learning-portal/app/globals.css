@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf8f5;
+  --foreground: #292723;
+  --accent: #bd623d;
+  --accent-light: #f5e5dc;
+  --border: #dedad3;
+  --muted: #77736d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+a,
+input {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: #e8c5b1;
+  color: #292723;
+}
